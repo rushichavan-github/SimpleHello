@@ -1,4 +1,4 @@
-package com.example.hello.controller;
+package com.example.HelloDocker.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class HelloController {
 		
 	@RequestMapping("/")
 	public String hello() {
-		return "HELLO RUSHIKESH CHAVAN";
+		return "Hello Rushikesh Chavan";
 	}
 }
